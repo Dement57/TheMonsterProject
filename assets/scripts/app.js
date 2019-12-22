@@ -1,1 +1,1 @@
-test commit
+function test();
