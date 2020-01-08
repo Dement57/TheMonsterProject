@@ -24,8 +24,6 @@ if (isNaN(parcedValue) || parcedValue <= 0) {
   return parcedValue;
 }
 
-let chosenMaxLife = getMaxLifeValues ();
-
 try {
   chosenMaxLife = getMaxLifeValues ();
 } catch (error) {
